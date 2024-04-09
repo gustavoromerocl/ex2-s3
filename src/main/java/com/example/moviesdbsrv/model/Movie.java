@@ -54,4 +54,8 @@ public class Movie {
   public String getSynopsis() {
     return synopsis;
   }
+
+  public void setId(Long id) {
+    this.id = id;
+}
 }
